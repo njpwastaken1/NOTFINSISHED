@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.align-start {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-end {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.text-dec {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.change-width {
+  width: 100%;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.logo-small {
+  width: 50px;
+}
+
+.padding-border {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.text-gap {
+  display: flex;
+  gap: 2rem;
+}
+
+.background-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('images/6352b63fc9635f6969ca8f39_Home-barbershop-x.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img-logo {
+  max-width: 15%;
+}
+
+.small-gap {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-color {
+  color: #fff;
+}
+
+.nav-size {
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.logo {
+  font-size: 1.3em;
+  font-weight: 900;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #dec7a6;
+  padding: 20px 23px;
+  color: black;
+  font-weight: 900;
+  transition: 0.3s ease;
+}
+
+.test {
+  display: flex;
+  align-items: center;
+}
+
+.img-medium {
+  max-width: 80%;
+}
+
+.secondary-background-color {
+  background-color: #f8f5ef;
+}
+
+.h1-size {
+  font-size: 5em;
+  line-height: 1;
+  max-width: 50rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.p-hero {
+  max-width: 50rem;
+}
+
+.btn-secondary {
+  padding: 20px 23px;
+  border: 2px solid white;
+  color: white;
+  font-weight: 900;
+  transition: 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-5px);
+}
+
+.btn-third {
+  padding: 20px 23px;
+  border: 2px solid black;
+  color: black;
+  font-weight: 900;
+  transition: 0.3s ease;
+}
+
+.btn-third:hover {
+  background-color: black;
+  color: white;
+  transform: translateY(-5px);
+}
+
+.btn-primary:hover {
+  transform: translateY(-5px);
+}
+
+.fit-item {
+  max-width: fit-content;
+}
+
+.h3-size {
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.secondary-color {
+  color: #000;
+}
+
+.third-color {
+  color: #dec7a6;
+}
+
+.h4-size {
+  font-size: 6em;
+  font-weight: 900;
+}
+
+.h5-size {
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.p-services {
+  max-width: 21rem;
+  line-height: 2;
+}
+
+.img-icon {
+  max-width: 100%;
+}
+
+.card {
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.059);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.align-top {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.services-border {
+  padding-right: 25rem;
+  padding-left: 25rem;
+}
+
+.big-gap {
+  display: flex;
+  gap: 7rem;
+}
+
+.margin-top {
+  margin-top: 3rem;
+}
+
+.align-bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.background-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/background2.jpeg');
+  background-size: cover;
+}
+
+.cta-padding {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.p-choose {
+  max-width: 35rem;
+}
+
+.above {
+  position: absolute;
+}
+
+/* * {
+  outline: 3px solid red;
+} */
